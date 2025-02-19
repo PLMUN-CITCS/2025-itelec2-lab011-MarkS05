@@ -1,5 +1,5 @@
-age_str = input("Enter your age: 21")
-membership_str = input("Are you a member? (Yes/No): No")
+age_str = input("Enter your age: 21 ")
+membership_str = input("Are you a member? (Yes/No): No ")
 age = int(age_str)
 membership = membership_str.strip().lower()
 if age >= 18:
